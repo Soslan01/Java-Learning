@@ -10,7 +10,7 @@ public class RemoveElementFromArray {
 
     Scanner scanner = new Scanner(
         System.in); //добавялем Scanner, чтобы взаимодействовать с программой
-    //с консоли;
+    //из консоли;
 
     int[] array = new int[10]; //задаем изначальную длину массива;
 
