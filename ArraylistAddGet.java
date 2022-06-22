@@ -14,7 +14,7 @@ public class ArraylistAddGet {
     //Создание массива с случайными числами;
     System.out.println("Введите длину списка: ");
     int num = scanner.nextInt();
-    LinkedList<Integer> list = new LinkedList<>();
+    ArrayList<Integer> list = new LinkedList<Integer>(num);
 
     for (int i = 0; i < num; i++) {
       list.add((int) (Math.random() * num - 1 + 1) + 1);
