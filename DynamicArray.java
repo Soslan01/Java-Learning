@@ -115,12 +115,5 @@ public class DynamicArray {
     int ind2 = scanner.nextInt();
     Array.get(list, ind2);
 
-
-
-
   }
 }
-
-
-
-
